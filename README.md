@@ -26,3 +26,10 @@ POSTGRES_PORT=5432
 IG_ACCESS_TOKEN=PUT_YOUR_TOKEN_HERE
 IG_USER_ID=PUT_YOUR_IG_USER_ID_HERE
 IG_GRAPH_BASE_URL=https://graph.facebook.com/v19.0
+
+## Environment variables
+
+Create `.env` file based on `.env.template`
+
+```bash
+cp .env.template .env
